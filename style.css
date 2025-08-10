@@ -1,7 +1,6 @@
 body {
     background-color: lightyellow;
     color: black;
-
 }
 
 header {
@@ -46,4 +45,11 @@ footer {
   padding: 10px;
   text-align: center;
   color: black;
+}
+
+button.funny-button {
+  display: block;
+  background: linear-gradient(to right, #ffce3a, #feb47b);
+  font-size: 1em;
+  margin: auto;
 }
