@@ -22,3 +22,21 @@ div.outerdiv div {
   width: 50%; 
   float: left;
 }
+
+div.centerdiv {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+div.leftdiv {
+  margin: left;
+  width: 10%;
+  text-align: center;
+}
+
+div.rightdiv {
+  margin: right;
+  width: 10%;
+  text-align: center;
+}
