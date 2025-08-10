@@ -40,3 +40,10 @@ div.rightdiv {
   width: 10%;
   text-align: center;
 }
+
+footer {
+  background-color: gold;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}

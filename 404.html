@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KOOLKID'S KOOL 404 ERROR PAGE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(38, 13, 70);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+article {
+  padding: 100px;
+  width: 100%;
+  background-image: url('images/neon\ background\ sad\ version.png');
+  background-size: cover;
+  color: white;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+div.centerdiv {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>404 ERROR: PAGE NOT FOUND</h1>
+</header>
+<article>
+    <div class="centerdiv">
+        <p>oops! looks like the page you were looking for doesn't exist. please check the url or go back to the <a href="/index.html">main hall of fame page</a>.</p>
+        <img src="404 error.png" alt="sad smiley face" width="300" height="270">
+    </div>
+</article>
+</body>
+</html>
