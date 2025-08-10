@@ -3,3 +3,22 @@ body {
     color: black;
 
 }
+
+header {
+  background-color: gold;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+div.outerdiv {
+  width: 100%;
+  overflow: auto;
+}
+
+div.outerdiv div {
+  text-align: center;
+  width: 50%; 
+  float: left;
+}
