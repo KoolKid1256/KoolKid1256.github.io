@@ -30,13 +30,13 @@ div.centerdiv {
 
 div.leftdiv {
   margin: left;
-  width: 10%;
+  width: 25%;
   text-align: center;
 }
 
 div.rightdiv {
   margin: right;
-  width: 10%;
+  width: 25%;
   text-align: center;
 }
 
